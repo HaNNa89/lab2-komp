@@ -162,7 +162,7 @@ main {
 
 .card-header{
     text-align: center;
-    margin-top: 30px;
+    margin-top: 20px;
     font-size: 18px;
     font-weight: 600;
 }
@@ -248,13 +248,17 @@ footer{
 .footer-icons{
     display: inline-block;
     padding: 20px;
+    color: #a3a2fc;
     list-style-type: none;
     gap: 1.5rem;
     
 }
+.footer-icons a{
+    color: white
+}
   
   footer a:hover {
-    color: rgb(209, 82, 101);
-    font-size: 110%;
+    color:  #9796f0;
+    font-size: 20px;
 }
 
