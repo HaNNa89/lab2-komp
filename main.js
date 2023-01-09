@@ -1,11 +1,17 @@
 window.addEventListener('DOMContentLoaded', main);
 
-/****  THIS IS THE START OF THE JAVASCRIPT FILE   ****/
+/**
+ * THIS FUNCTION IS THE START OF THE JAVASCRIPT FILE.
+ */
 function main() {
     showHamburgerMenu();
     
 }
-/****  THIS FUNCTION SHOWS THE CONTENT OF THE HAMBURGER MENU   ****/
+
+/**
+ * THIS FUNCTION SHOWS AND CLOSE THE HAMBURGER MENU, AND YOU CAN USE THE NAV-LINKS. 
+ */
+
 function showHamburgerMenu() {
     const header = document.querySelector("header");
     const burgerBtn = document.querySelector('#hamburger-menu');
