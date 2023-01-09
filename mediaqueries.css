@@ -1,0 +1,65 @@
+/**** MOBILE *****/
+@media screen and (max-width:375px){
+    .card-grid-container{
+      row-gap: 20px; 
+    }
+
+    .experiences-row .col:nth-child(2){
+      margin-top: 20px;
+    }
+  
+    .header-container h1{
+      font-size: 14px;  
+    }
+  
+    #hamburger-menu i{
+      font-size: 1.5rem;
+    }
+  
+    .experiences-container .experiences-row{
+      grid-template-columns: 300px;
+    }
+    .header-title{
+        font-size: 20px;
+    }
+    .col .contents .box h3{
+        font-size: 14px;
+    }
+
+    .col .contents .box h4{
+        font-size: 16px;
+    }
+  }
+
+  /**** TABLET *****/
+  @media screen and (max-width:768px){
+    .card-grid-container{
+      row-gap: 20px; 
+    }
+
+    .experiences-row .col:nth-child(2){
+      margin-top: 20px;
+    }
+  
+    .header-container h1{
+      font-size: 18px;  
+    }
+  
+    #hamburger-menu i{
+      font-size: 1.5rem;
+    }
+  
+    .experiences-container .experiences-row{
+      grid-template-columns: 1fr;
+    }
+    .header-title{
+        font-size: 22px;
+    }
+    .col .contents .box h3{
+        font-size: 14px;
+    }
+
+    .col .contents .box h4{
+        font-size: 16px;
+    }
+  }
