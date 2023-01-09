@@ -15,7 +15,7 @@ body {
 }
 /**** HEADER ****/
 header{
-    position: fixed;
+    max-width: 100%;
     background-color: rgb(254, 146, 204);
     inset: 0;
     height: 5rem;
