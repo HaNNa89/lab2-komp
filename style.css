@@ -9,7 +9,7 @@ body {
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-
+/**** HEADER ****/
 header{
     position: fixed;
     background-color: rgb(254, 146, 204);
@@ -19,6 +19,7 @@ header{
     overflow-y: hidden;
 }
 
+/**** STYLE TO SHOW HAMBURGER-MENU-CONTENT ****/
 .showmenu{
     height: 100%;
 }
@@ -31,6 +32,7 @@ header{
     gap: 1rem;
 }
 
+/**** HAMBURGER MENU****/
 #hamburger-menu i{
     font-size: 1.8rem;
     margin-left: -4rem;
@@ -60,12 +62,14 @@ header{
     color: rgb(249, 69, 150);
 }
 
+/**** MAIN ****/
 main {
     margin-top: 8rem;
     display: flex;
     flex-direction: column;
 }
 
+/**** SECTION ONE - WELCOME HEADER ****/
 .welcome-container{
     width: 100%;
     display: flex;
@@ -99,6 +103,7 @@ main {
     overflow: hidden;
 }
 
+/**** SECTION TWO - ABOUT ME ****/
 .about-me{
     display: flex;
     flex-direction: column;
@@ -122,6 +127,7 @@ main {
     margin-right: 10px;
 }
 
+/****  SECTION THREE - EDUCATION AND WORK EXPERIENCE  ****/
 .experiences-container{
     width: 100%;
     padding: 35px;
@@ -157,6 +163,7 @@ main {
     border: 1px solid transparent;
 }
 
+/****  SECTION FOUR - CARDS  ****/
 .card-header{
     text-align: center;
     margin-top: 20px;
@@ -205,7 +212,7 @@ main {
     color: rgb(254, 146, 204);
     margin-bottom: 20px;
 }
-
+/****  STYLE - CARD BUTTONS  ****/
 .card-btn{
     display: block;
     width: 100%;
@@ -235,6 +242,7 @@ main {
     margin-left: 1.5rem;
 }
 
+/****  FOOTER  ****/
 footer{
     background-color: rgb(254, 146, 204);
     display: flex;

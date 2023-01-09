@@ -1,27 +1,30 @@
 /**** MOBILE *****/
 @media screen and (max-width:375px){
-    .card-grid-container{
-      row-gap: 20px; 
+    
+    .header-container h1{
+        font-size: 14px;  
+    }
+
+    .header-title{
+        font-size: 20px;
+    }
+    
+    #hamburger-menu i{
+        font-size: 1.5rem;
+    }
+    
+    .experiences-container .experiences-row{
+        grid-template-columns: 300px;
     }
 
     .experiences-row .col:nth-child(2){
       margin-top: 20px;
     }
-  
-    .header-container h1{
-      font-size: 14px;  
+
+    .card-grid-container{
+        row-gap: 20px; 
     }
-  
-    #hamburger-menu i{
-      font-size: 1.5rem;
-    }
-  
-    .experiences-container .experiences-row{
-      grid-template-columns: 300px;
-    }
-    .header-title{
-        font-size: 20px;
-    }
+ 
     .col .contents .box h3{
         font-size: 14px;
     }
@@ -33,16 +36,22 @@
 
   /**** TABLET *****/
   @media screen and (max-width:768px){
-    .card-grid-container{
-      row-gap: 20px; 
-    }
+   
 
     .experiences-row .col:nth-child(2){
       margin-top: 20px;
     }
+
+    .card-grid-container{
+        row-gap: 20px; 
+    }
   
     .header-container h1{
       font-size: 18px;  
+    }
+
+    .header-title{
+        font-size: 22px;
     }
   
     #hamburger-menu i{
@@ -52,9 +61,7 @@
     .experiences-container .experiences-row{
       grid-template-columns: 1fr;
     }
-    .header-title{
-        font-size: 22px;
-    }
+    
     .col .contents .box h3{
         font-size: 14px;
     }
