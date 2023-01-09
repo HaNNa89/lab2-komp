@@ -68,7 +68,7 @@ header{
 
 /**** MAIN ****/
 main {
-    margin-top: 8rem;
+    margin-top: 4rem;
     display: flex;
     flex-direction: column;
 }
@@ -120,11 +120,12 @@ main {
 }
   
 .about-me h2{
-    margin: 20px;
+    margin: 15px;
 }
   
 .about-me p{
-    padding:15px
+    padding:15px;
+    margin-bottom: 10px;
 }
   
 #icon-h2{
@@ -135,7 +136,7 @@ main {
 .experiences-container{
     width: 100%;
     padding: 35px;
-    margin: 50px auto;  
+    margin: 30px auto;  
 }
   
 .experiences-row{
@@ -170,7 +171,7 @@ main {
 /****  SECTION FOUR - CARDS  ****/
 .card-header{
     text-align: center;
-    margin-top: 20px;
+    margin-top: 15px;
     font-size: 18px;
     font-weight: 600;
 }
